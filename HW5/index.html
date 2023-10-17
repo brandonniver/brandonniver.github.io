@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>MIS 3033 HW5 Brandon Niver</title>
+
+    <style>
+
+        #MainDiv
+        {
+            width:1000px;
+            height:400px;
+        }
+
+        #HeaderDiv
+        {
+            display:flex;
+            flex-direction:row;
+            background-color:antiquewhite;
+            height:50px;
+        }
+
+        #BodyDiv
+        {
+            display:flex;
+            flex-direction:row;
+            height:300px;
+            background-color:red;
+        }
+
+        #FooterDiv 
+        {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            background-color: #073c76;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="MainDiv">
+        <div id="HeaderDiv">
+            <span style="justify-content:end;align-items:center;margin-right:5px;">
+                Hi, Brandon Niver,
+                <img src="head1.png" style="height:40px;border-radius:50%;">
+                <button style="">Logout</button>
+            </span>
+        </div>
+        
+        <div id="BodyDiv">
+            <div id="LeftDiv" style="width:300px;background-color:aliceblue;">
+                <img src="book.jpg" style="width:200px;"/><br/>
+                <span style="font-weight:bold;">C# 10 and .NET 6</span>
+            </div>
+            <div id="CenterDiv" style="width:400px;background-color:aliceblue;">
+                <span style="font-weight:bold">$44.99</span><br/>
+                QTY: <textarea style="background-color:white;height:25px;"></textarea> NEED TO FIX THIS<br />
+                <input type="button" name="add" value="Add" style="margin-top:5px;"/>
+
+            </div>
+            <div id="RightDiv" style="width:300px;background-color:cornflowerblue;">
+                <span style="font-weight:bold;">Totalcost: FUNCTION HERE</span>
+            </div>
+        </div>
+
+        <div id="FooterDiv" style="color:white;">
+            Developed by Brandon Niver for MIS3033 Homework
+        </div>
+    </div>
+</body>
+
+</html>
